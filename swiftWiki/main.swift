@@ -10,12 +10,12 @@ import Foundation
 
 
 let 😻 = Cat()
-😻.age
+print(😻.age)
 😻.walk()
 😻.makeSound()
 
 let 🐶 = Dog()
-🐶.age
+print(🐶.age)
 🐶.walk()    //--> There is no dynamic dispatch. this is not calling the direct animal walk method
 (🐶 as Animal).walk() // --> we need to cast it as animal then only it's calling the animal method
 🐶.makeSound()
