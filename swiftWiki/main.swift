@@ -16,5 +16,6 @@ let 😻 = Cat()
 
 let 🐶 = Dog()
 🐶.age
-🐶.walk()
+🐶.walk()    //--> There is no dynamic dispatch. this is not calling the direct animal walk method
+(🐶 as Animal).walk() // --> we need to cast it as animal then only it's calling the animal method
 🐶.makeSound()

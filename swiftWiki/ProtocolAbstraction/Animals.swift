@@ -21,6 +21,10 @@ class Dog : Animal {
     func makeSound() {
         print("Boo boo")
     }
+
+    func walk() {
+        print("🐶 walks 2 steps")
+    }
 }
 
 class Cat: Animal {
@@ -43,6 +47,6 @@ extension Animal {
     }
 
     func walk() {
-        print("walk walk!!")
+        print("Move Forward 4 steps")
     }
 }
