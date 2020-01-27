@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
 
+let 😻 = Cat()
+😻.age
+😻.walk()
+😻.makeSound()
+
+let 🐶 = Dog()
+🐶.age
+🐶.walk()
+🐶.makeSound()
