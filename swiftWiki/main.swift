@@ -12,14 +12,17 @@ import Foundation
 protocol InitClasses {
     func onLoad() 
 }
+//
+//let appliedProtocolAbstraction = ProtocolsAbstractionImpl()
+//appliedProtocolAbstraction.run()
+//
+//let closures = Closures()
+//closures.runClosure(a: 43, b: 23, operate: {$0 + $1})
+//closures.runClosure(a: 12, b: 23) { $0 + $1 } //trailing closures 
+//
+//
+//let collectionClosures = ClosuresOnCollections()
+//collectionClosures.onLoad()
 
-let appliedProtocolAbstraction = ProtocolsAbstractionImpl()
-appliedProtocolAbstraction.run()
-
-let closures = Closures()
-closures.runClosure(a: 43, b: 23, operate: {$0 + $1})
-closures.runClosure(a: 12, b: 23) { $0 + $1 } //trailing closures 
-
-
-let collectionClosures = ClosuresOnCollections()
-collectionClosures.onLoad()
+let props = PropsAndMethods()
+props.onLoad()
