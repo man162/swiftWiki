@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6B10F17D23DF7F4600AD5094 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B10F17C23DF7F4600AD5094 /* main.swift */; };
+		6B10F18523DF801300AD5094 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B10F18423DF801300AD5094 /* Animals.swift */; };
+		6B10F18823E08CC200AD5094 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B10F18723E08CC200AD5094 /* Closures.swift */; };
+		6B10F18C23E0CF4F00AD5094 /* CollectionWithClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B10F18B23E0CF4F00AD5094 /* CollectionWithClosures.swift */; };
+		6B10F18F23E0DE1200AD5094 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B10F18E23E0DE1200AD5094 /* Enumeration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		6B10F17923DF7F4600AD5094 /* swiftWiki */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftWiki; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B10F17C23DF7F4600AD5094 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6B10F18423DF801300AD5094 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		6B10F18723E08CC200AD5094 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		6B10F18B23E0CF4F00AD5094 /* CollectionWithClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionWithClosures.swift; sourceTree = "<group>"; };
+		6B10F18E23E0DE1200AD5094 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,37 @@
 		6B10F17B23DF7F4600AD5094 /* swiftWiki */ = {
 			isa = PBXGroup;
 			children = (
+				6B10F18D23E0DDD100AD5094 /* Enumeration */,
+				6B10F18623E08CAA00AD5094 /* Closures */,
+				6B10F18323DF7FFD00AD5094 /* ProtocolAbstraction */,
 				6B10F17C23DF7F4600AD5094 /* main.swift */,
 			);
 			path = swiftWiki;
+			sourceTree = "<group>";
+		};
+		6B10F18323DF7FFD00AD5094 /* ProtocolAbstraction */ = {
+			isa = PBXGroup;
+			children = (
+				6B10F18423DF801300AD5094 /* Animals.swift */,
+			);
+			path = ProtocolAbstraction;
+			sourceTree = "<group>";
+		};
+		6B10F18623E08CAA00AD5094 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				6B10F18723E08CC200AD5094 /* Closures.swift */,
+				6B10F18B23E0CF4F00AD5094 /* CollectionWithClosures.swift */,
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
+		6B10F18D23E0DDD100AD5094 /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				6B10F18E23E0DE1200AD5094 /* Enumeration.swift */,
+			);
+			path = Enumeration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B10F17D23DF7F4600AD5094 /* main.swift in Sources */,
+				6B10F18F23E0DE1200AD5094 /* Enumeration.swift in Sources */,
+				6B10F18523DF801300AD5094 /* Animals.swift in Sources */,
+				6B10F18823E08CC200AD5094 /* Closures.swift in Sources */,
+				6B10F18C23E0CF4F00AD5094 /* CollectionWithClosures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
