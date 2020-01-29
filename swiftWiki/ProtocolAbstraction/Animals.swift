@@ -50,3 +50,19 @@ extension Animal {
         print("Move Forward 4 steps")
     }
 }
+
+class ProtocolsAbstractionImpl{
+
+    func run () {
+        let 😻 = Cat()
+        print(😻.age)
+        😻.walk()
+        😻.makeSound()
+
+        let 🐶 = Dog()
+        print(🐶.age)
+        🐶.walk()    //--> There is no dynamic dispatch. this is not calling the direct animal walk method
+        (🐶 as Animal).walk() // --> we need to cast it as animal then only it's calling the animal method
+        🐶.makeSound()
+    }
+}
